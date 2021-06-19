@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: ;
+  }
+  body{
+    background-color: #e8f1f2;
+    color: #13293d;
+    font-family: sans-serif;
+    background-position: top;
+    max-width: ;
+
+  }
+
+  .centro{
+    text-align: center;
+    font-family: sans-serif;   
+    margin-top: 50px;  
+  }
+
+  
+
+  .topo{
+    background-image: url("imagens/header.png");    
+    background-size: cover;
+    padding: 5px 5px 5px 5px;
+    background-position: 50% 50%;   
+    z-index: 1;
+    position:initial;
+
+  } 
+
+  div.topo p{
+      font-size: 80px;
+      font-family: helvetica sans-serif;
+      text-align:center;    
+      bottom: auto;
+      z-index: 2;
+      margin-top: 500px;
+      
+    
+  }
+  .intro{
+    font-family: sans-serif;
+    font-size: 18px;    
+    padding: 10px 10px;
+    margin: 10px;
+  }   
+
+ 
+
+  #fotoperfil{
+    border-radius: 50%;
+    border: 6px solid #247ba0;
+  }
+
+  .blocoformacao{
+    width: 80%;
+    padding: 10px 10px;
+    margin: 10px;    
+     
+  }
