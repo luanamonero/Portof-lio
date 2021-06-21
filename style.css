@@ -97,11 +97,12 @@
     color: #e8f1f2;
     width: 100%;
     display: inline-block;
-    line-height: 25px;
+    line-height: 25px;    
     text-align: left;
   }
+
   .finalpagina li{
     display: inline-block;
-    text-align: center;
+    text-align: right;
   }
   
