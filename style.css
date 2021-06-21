@@ -20,28 +20,28 @@
   .topo{
     background-image: url("imagens/header.png");    
     background-size: cover;
-    padding: 60px 20px 40px 20px;
-    background-position: 50% 25%;
-    line-height: 30px;
+    padding: 110px 40px 40px 20px;
+    background-position: 50% 25%;  
+    
   }    
 
   .topo1{
-    font-size: 40px;
+    font-size: 60px;
     font-family: helvetica sans-serif;
     text-align:right;    
-    margin-top: 105px;
-    margin-right: 80px;
-    color: #e8f1f2; 
+    margin-top: 150px;
+    margin-right: 170px;
+    color: #e8f1f2;
+    max-height: 20px;
+  }
+
+  .topo2{
+    font-size: 120px;
+    text-align: right;
+    color: #e8f1f2;
+    margin-block-end: 0px;
   }
   
-  .topo3{
-    font-size: 20px;
-    font-family: helvetica sans-serif;
-    text-align:right;
-    margin-top: 105px;    
-  }
-
-
   #fotoperfil{
     border-radius: 50%;
     border: 6px solid #247ba0;
@@ -58,3 +58,25 @@
   margin-right: 580px;   
 }
 
+.pbotao{
+  background-color:#247ba0;
+  border-radius: 30px;
+  text-align: center;
+  padding: 15px;
+  color: #e8f1f2;   
+  margin-top: 15px; 
+  margin-left: 450px;
+  margin-right: 450px; 
+}
+
+.finalpagina{
+  background-color: black;
+  background-position: end;
+  color: #e8f1f2;
+  padding: 5px 5px;  
+  text-align: center;
+}
+
+div.finalpagina img{
+  border-radius: 5px;
+}
