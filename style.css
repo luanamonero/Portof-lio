@@ -17,72 +17,69 @@
     line-height: 25px;
   }  
 
+  .barrafixa{
+    background-color: #13293d;
+    width: 100%;
+    padding: 15px 20px;
+    position: fixed;       
+  }
+
+  #imagemtopo{
+    width: 200px;    
+  }
+
   .topo{
     background-image: url("imagens/header.png");    
     background-size: cover;
-    padding: 110px 40px 40px 20px;
+    padding: 150px 40px 40px 20px;
     background-position: 50% 25%;  
     
   }    
-
   .topo1{
     font-size: 60px;
     font-family: helvetica sans-serif;
     text-align:right;    
-    margin-top: 150px;
-    margin-right: 170px;
-    color: #e8f1f2;
-    max-height: 20px;
+    margin-top: 180px;
+    margin-right: 30px;
+    color: #e8f1f2;    
   }
 
-  .topo2{
-    font-size: 120px;
-    text-align: right;
-    color: #e8f1f2;
-    margin-block-end: 0px;
-  }
-  
   #fotoperfil{
     border-radius: 50%;
     border: 6px solid #247ba0;
   }
 
-.botao{
-  background-color:#247ba0;
-  border-radius: 30px;
-  text-align: center;
-  padding: 15px;
-  color: #e8f1f2;   
-  margin-top: 15px; 
-  margin-left: 580px;
-  margin-right: 580px;   
-}
-
-.pbotao{
-  background-color:#247ba0;
-  border-radius: 30px;
-  text-align: center;
-  padding: 15px;
-  color: #e8f1f2;   
-  margin-top: 15px; 
-  margin-left: 450px;
-  margin-right: 450px; 
-}
-
-.pbotao2:hover{
+  .botao{
+    background-color:#247ba0;
+    border-radius: 30px;
+    text-align: center;
+    padding: 15px;
+    color: #e8f1f2;   
+    margin-top: 15px 10px 10px 10px; 
+    display: inline-block;   
+    width: 100px;   
+    border: 4px solid #13293d;
+    font-weight: bolder;
+    
+  }
+  
+  .pbotao2:hover{
   color: #247ba0;
   background-color:#e8f1f2;
   border: 4px solid #13293d; 
   font-weight: bolder;
-}
+  text-align: center;
+  padding: 15px;
+  list-style: none;
+  width: 80px;
+  display: inline-block;   
+  }
+
 .finalpagina{
-  background-color: black;
+  background-color: #13293d;
   background-position: end;
   color: #e8f1f2;
   padding: 5px 5px;  
   text-align: center;
 }
 
-div.finalpagina img{
-  border-radius: 5px;
-}
