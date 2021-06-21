@@ -20,20 +20,24 @@
   .barrafixa{
     background-color: #13293d;
     width: 100%;
-    padding: 15px 20px;
+    padding: 15px 20px 15px 20px;
     position: fixed;     
     color: #e8f1f2;  
+  }
+  
+  .barrafixa nav {
+    text-align: right;
+    margin-right: 30px;
+    font-weight: bold;    
   }
 
   .barrafixa li{
     display: inline;
     text-align: right;    
     padding: 5px;
+    margin-bottom: 0;
   }
   
-  #imagemtopo{
-    width: 200px;    
-  }
 
   .topo{
     background-image: url("imagens/header.png");    
@@ -65,7 +69,7 @@
     display: inline-block;   
     width: 100px;   
     border: 4px solid #13293d;
-    font-weight: bolder;    
+    font-weight: bolder;        
   }
   
   .pbotao2:hover{
@@ -77,32 +81,41 @@
   padding: 15px;
   list-style: none;
   width: 80px;
-  display: inline-block;   
+  display: inline-block;     
   }
 
   .imagemprojeto{
-    width: 40%; 
+    width: 30%; 
     display: inline-block;
     padding: 5px;
-    margin-left: 100px;
-    
+    border-radius: 10%;
+    padding: 20px;   
   }
 
-  #pprojeto{
-    text-align: center;
-    line-height: 25px;
+  a{
+    text-decoration: none;
+    color: #e8f1f2;
   }
+
+ 
   .finalpagina{
     background-color: #13293d;
     color: #e8f1f2;
     width: 100%;
-    display: inline-block;
-    line-height: 25px;    
-    text-align: left;
+    line-height: 25px;      
+    padding: 20px;
+    margin-top: 20px;
+    font-weight: bol;
   }
 
-  .finalpagina li{
-    display: inline-block;
+  .finalpagina nav{
     text-align: right;
+    margin-right: 20px;
+    font-weight: bold;
+    margin-right: 10px;
+    
+  }
+  .finalpagina li{
+    display: inline-block;    
   }
   
