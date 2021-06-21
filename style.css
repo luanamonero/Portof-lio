@@ -21,9 +21,16 @@
     background-color: #13293d;
     width: 100%;
     padding: 15px 20px;
-    position: fixed;       
+    position: fixed;     
+    color: #e8f1f2;  
   }
 
+  .barrafixa li{
+    display: inline;
+    text-align: right;    
+    padding: 5px;
+  }
+  
   #imagemtopo{
     width: 200px;    
   }
@@ -87,9 +94,14 @@
   }
   .finalpagina{
     background-color: #13293d;
-    bottom: 0;
     color: #e8f1f2;
-    padding: 50px 50px;  
-    width: 100%;    
+    width: 100%;
+    display: inline-block;
+    line-height: 25px;
+    text-align: left;
   }
-
+  .finalpagina li{
+    display: inline-block;
+    text-align: center;
+  }
+  
