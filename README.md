@@ -4,5 +4,5 @@
 
 # Link 
 
-<a href=“https://luanamonero.netlify.app/“>https://luanamonero.netlify.app/</a>
+<a href=“https://luanamonero.netlify.app/“ target="_blank">https://luanamonero.netlify.app/</a>
 
