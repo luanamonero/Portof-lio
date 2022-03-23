@@ -40,7 +40,11 @@ html {
   border-radius: 12px;
 }
 
+
+/* --------- */
 /* Navbar Section  */
+/* --------- */
+
 .sticky {
   background: hsla(175, 100%, 35%, 1);
 
@@ -61,16 +65,6 @@ html {
     hsla(175, 100%, 35%, 1) 0%,
     hsla(0, 0%, 0%, 1) 100%
   );
-}
-
-/* --------- */
-/* Navbar Section  */
-/* --------- */
-.sticky {
-  background-color: #1b1a2ea9 !important;
-  transition: all 0.3s ease-out 0s !important;
-  box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) !important;
-  backdrop-filter: blur(15px) !important;
 }
 
 .navbar {
@@ -203,12 +197,7 @@ html {
 /* Nav Bar - Animation Name */
 /* --------- */
 /* https://www.hongkiat.com/blog/svg-animations/ */
-.sticky {
-  background-color: #1b1a2ea9 !important;
-  transition: all 0.3s ease-out 0s !important;
-  box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) !important;
-  backdrop-filter: blur(15px) !important;
-}
+
 
 .svg-wrapper {
   height: 60px;

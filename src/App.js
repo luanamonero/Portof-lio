@@ -8,7 +8,6 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import ScrollToTop from "./components/scrollToTop"
 
 
 function App() {
@@ -23,7 +22,6 @@ function App() {
     <Router>
       <div className="App" id={load ? "no-scroll" : "scroll"}>
         <Navbar />
-          <ScrollToTop/>
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/project" component={Projects} />

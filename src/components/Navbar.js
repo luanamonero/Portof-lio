@@ -27,7 +27,7 @@ function NavBar() {
     expanded={expand}
     fixed="top"
     expand="md"
-    className={navColour ? "sticky" : "navbar"}>
+    className={navColour ? "navbar" : "sticky"}>
       <Container>
         <Navbar.Brand href="/">
           <div class="svg-wrapper">
