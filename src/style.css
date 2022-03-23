@@ -67,6 +67,10 @@ html {
   );
 }
 
+.navLink {
+  margin-left: 47%;
+}
+
 .navbar {
   position: fixed !important;
   transition: all 0.3s ease-out 0s !important;
@@ -134,7 +138,12 @@ html {
   .navbar-nav .nav-item a::after {
     display: none !important;
   }
+
+  .navLink {
+    margin-left: 0;
+  }
 }
+
 .navbar-brand {
   color: rgb(250, 250, 250) !important;
 }

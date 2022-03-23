@@ -22,6 +22,7 @@ function NavBar() {
   }
 
   window.addEventListener("scroll", scrollHandler);
+  
   return (
     <Navbar 
     expanded={expand}
@@ -48,7 +49,7 @@ function NavBar() {
           <span></span>
         </Navbar.Toggle>
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="ms-auto" defaultActiveKey="#home">
+          <Nav className="ms-auto navLink" defaultActiveKey="#home">
             <Nav.Item>
               <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
                 <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
