@@ -270,7 +270,6 @@ html {
   }
 }
 
-
 /* --------- */
 /* Home section */
 /* --------- */
@@ -387,7 +386,7 @@ html {
   z-index: +1000;
   position: relative;
   padding-bottom: 70px !important;
-  padding-top: 70px !important;
+  padding-top: 30px !important;
 }
 
 .home-about-description {
@@ -550,6 +549,7 @@ html {
   overflow: hidden !important;
   box-shadow: 0 4px 4px 5px #14ffec !important;
 }
+
 
 .card-img-top {
   padding: 20px !important;

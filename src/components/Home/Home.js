@@ -1,9 +1,10 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import profile from "../../Assets/profile.jpg";
+import Tilt from "react-parallax-tilt";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
+import home1 from "../../Assets/home1.png";
 
 function Home() {
   return (
@@ -25,9 +26,11 @@ function Home() {
                 <Type />
               </div>
             </Col>
-            <Col md={5}>
-              <img src={profile} alt="home pic" className="img-fluid" />
-            </Col>
+            <Col md={5} style={{ paddingBottom: 20 }}>
+            <Tilt>
+              <img src={home1} className="img-fluid" alt="avatar" style={{ maxHeight: "450px" }}/>
+            </Tilt>
+          </Col>
           </Row>
         </Container>
         <Home2 />
