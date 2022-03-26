@@ -7,11 +7,9 @@ import { TiPin } from "react-icons/ti";
 import ProjectCard from "../Projects/ProjectCards";
 import myImg from "../../Assets/myAvatar.svg";
 import wallet from "../../Assets/Projects/wallet.gif";
-import Movie from "../../Assets/Projects/Movie.gif";
 import Button from "react-bootstrap/Button";
 import { BiLinkExternal } from "react-icons/bi";
 import app from "../../Assets/Projects/app.gif";
-import { Link } from "react-router-dom";
 
 function Home2() {
   return (
